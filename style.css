@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100&family=Rubik:wght@300;400&family=Ubuntu+Mono&display=swap');
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+border: 1px black solid;
+/* width:50rem; */
+/* height:100vh; */
+margin: 0 auto;
+}
+.cont-size{
+    border: 1px black solid;
+    width:40rem;
+    /* height:8rem; */
+    margin: 0 auto;
+    margin-bottom: 2rem;
+}
+.input-size{
+    /* border-bottom: 0.1rem solid black; */
+    border-style: none;
+}
+/*chips drag and drop*/
+.btn-drag-dp{
+    border-radius: 1rem;
+    padding:0.5rem;
+    font-weight:600;
+}
+/*Chips with form control*/
+#btn-ctrl1,#btn-ctrl2{
+    border-radius: 0.5rem;
+    padding:0.5rem;
+    font-weight:600;
+}
+/*basic chips*/
+.basic-chips{
+    border-radius: 1rem;
+    padding:0.5rem;
+    font-weight:600;
+}
+/*stackes chips*/
+.stacked{
+    padding:0.5rem;
+    color:white;
+    background-color: rgb(80, 80, 185); 
+    border-radius: 1.5rem;
+    font-weight: 500;
+    
+    /* display:flex;
+    flex-flow: column wrap;
+    gap:20px; */
+    /* flex-basis: 0.3rem; */
+}
