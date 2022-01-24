@@ -1,0 +1,23 @@
+.nav-mail{
+    display: flex;
+    flex-direction: row;
+    gap:1rem;
+}
+.nav-mail:hover{
+    background-color: rgb(238, 234, 229);
+    cursor: pointer;
+    border: 2px solid rgb(215, 228, 215);
+    box-sizing: border-box;
+    /* flex-shrink: 2; */
+}
+#nav-drawer{
+    width:22rem;
+    border:2px solid rgb(73, 54, 54);
+    box-shadow: chocolate;
+    padding: 0 2rem;
+}
+/* .material-icons.icn-arrange{
+    display: flex;
+    flex-direction: column;
+    gap:10rem;
+} */
