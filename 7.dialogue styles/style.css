@@ -1,0 +1,12 @@
+#toggle1{
+    width:fit-content;
+    height: fit-content;
+    background-color: tan;
+    
+}
+.material-icons.right-icn{
+    width:1.5rem;
+    background-color: tomato;
+    border-radius: 50%;
+    cursor: pointer;
+}
