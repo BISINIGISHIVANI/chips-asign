@@ -7,5 +7,4 @@ function myFunction(){
         userInput.style.display="none";
     }
 }
-inputOne.addEventListener("click",myFunction)
-var 
+inputOne.addEventListener("click",myFunction) 

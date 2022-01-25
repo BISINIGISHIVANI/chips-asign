@@ -12,41 +12,34 @@
 <body>
     <div class="container">
         <nav class="nav-arg">
-            <ul id="nav-ul">
+            <ul>
                 <li id="alert"><a href="./index.html">ALERT</a></li>
                 <li><a href="./simple.html">SIMPLE</a></li>
                 <li><a href="./convert.html">CONFIRMATION</a></li>
-            
                 <li><i class="material-icons right-icn"id="btn"onclick="myFunction">fitbit</i></li>
             </ul>
         </nav>
-        
-        <div id="toggle1">
-            <div>
-                <p>Configuration</p>
-                <i class="material-icons">close</i>
-                <hr>
-                <p>Options</p>
-                <label for="Title"><input type="checkbox" name="Title" id="">Title</label>
-                <label for="supporting text"><input type="checkbox" name="supporting text" id="">supporting text</label>
-                <p>Buttons</p>
-                <label for=""><input type="radio" name="" id="">Side by side</label>
-                <label for=""><input type="radio" name="" id="">Stacked</label>
-            </div>
-        </div>
-    </div>
-    <section class="alert1">
-        <button id="btn-alert">OPEN ALERT DIALOG</button>
-        <div class="dialog">
-            <h2>Dialog header</h2>
-            <h4>Dialog body text</h4>
-            <div class="box1-btm">
+        <section class="md-sect">
+            <section id="confirmation-size">
+                <button id="confirm-1">
+                    OPEN CONFIRMATION DIALOG
+                </button>
+            </section>
+            <div id="dialog-confirm">
+                <h1 id="confirm-h1">Dialog header</h1>
+                <div id="confirm-input">
+                <label for=""><input type="radio" name="" id="">item1</label>
+                <label for=""><input type="radio" name="" id="">item2</label>
+                <label for=""><input type="radio" name="" id="">item3</label>
+                <label for=""><input type="radio" name="" id="">item4</label>
+                </div>
+                <div class="box1-btm box2-btm">
                 <button id="act1"class="act">ACTION1</button>
                 <button id="act2"class="act">ACTION2</button>
+                </div>
             </div>
-        </div>
-    </section>
-
+        </section>
+    </div>
     <script src="./index.js"></script>
 </body>
 </html>
