@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Roboto:wght@100&family=Rubik:wght@300;400&family=Ubuntu+Mono&display=swap');
+body{
+    font-family: dongle;
+    font-size: 1.2rem;
+}
+#container{
+    background-color: black;
+    color:white;
+    /* width:25rem;
+    height: 3rem; */
+    padding:0.5rem;
+    border-radius: 0.4rem;
+    margin-left: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap:3rem;
+    /* flex-wrap: row wrap; */
+}
+
+.rht-side{
+    margin-right: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+
+}
