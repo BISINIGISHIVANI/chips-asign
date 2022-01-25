@@ -6,6 +6,7 @@ span{
     /* width: 2rem; */
     /* border-radius: 50% 50%; */
 }
+/*Text with a badge*/
 .txt{
     position: relative;
 }
@@ -17,4 +18,46 @@ span{
     position: absolute;
     top:-0.9rem;
     left:7rem;
+}
+/*badge-lg*/
+#badge-lg{
+    width:2rem;
+    height: 2rem;
+    text-align:center;
+    border-radius: 50%;
+    position: absolute;
+    font-weight: 1200;
+    top:2rem;
+    left:8rem;
+}
+/* badge-action*/
+#btn-act{
+    position: relative;
+
+}
+#span-act{
+    width:1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top:4.5rem;
+    left:12.5rem;
+}
+/*badge-hide*/
+#badge-hide{
+    width:1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top:7rem;
+    left:15rem;
+}
+/*badge-home*/
+#badge-home{
+    width:1.5rem;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    top:9.5rem;
+    left:8.5rem;
 }
