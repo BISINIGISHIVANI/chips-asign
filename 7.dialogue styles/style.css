@@ -19,7 +19,7 @@ a{
 
 #nav-ul{
     display: flex;
-    flex-direction: row;
+    flex: row wrap;
     gap:1rem;
 }
 .material-icons.right-icn{
@@ -53,4 +53,7 @@ a{
     width: 20rem;
     border:1px solid blue;
     margin: 2rem;
+}
+li>i{
+    margin-left:10rem;
 }
