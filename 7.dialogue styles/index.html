@@ -20,32 +20,42 @@
                 <li><i class="material-icons right-icn"id="btn"onclick="myFunction">fitbit</i></li>
             </ul>
         </nav>
+        <div class="nav-below">
+            <div class="primary-btn">
+                <button id="btn-alert">OPEN ALERT DIALOG</button>
+                <section class="alert1">
         
-        <div id="toggle1">
-            <div>
-                <p>Configuration</p>
-                <i class="material-icons">close</i>
-                <hr>
-                <p>Options</p>
-                <label for="Title"><input type="checkbox" name="Title" id="">Title</label>
-                <label for="supporting text"><input type="checkbox" name="supporting text" id="">supporting text</label>
-                <p>Buttons</p>
-                <label for=""><input type="radio" name="" id="">Side by side</label>
-                <label for=""><input type="radio" name="" id="">Stacked</label>
+                    <div class="dialog"style="display:none">
+                        <h2>Dialog header</h2>
+                        <h4>Dialog body text</h4>
+                        <div class="box1-btm">
+                            <button id="act1"class="act">ACTION1</button>
+                            <button id="act2"class="act">ACTION2</button>
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <div id="toggle1">
+                <div class="tgl-nav">
+                    <div class="tgl-header">
+                        <p>Configuration</p>
+                    <i class="material-icons tgl-icn">close</i>
+                    </div>
+                    
+                    <hr>
+                    <p>Options</p>
+                    <label for="Title"><input type="checkbox" name="Title" id="">Title</label>
+                    <label for="supporting text"><input type="checkbox" name="supporting text" id="">supporting text</label>
+                    <p>Buttons</p>
+                    <label for=""><input type="radio" name="" id="">Side by side</label>
+                    <label for=""><input type="radio" name="" id="">Stacked</label>
+                </div>
             </div>
         </div>
+        
     </div>
-    <section class="alert1">
-        <button id="btn-alert">OPEN ALERT DIALOG</button>
-        <div class="dialog">
-            <h2>Dialog header</h2>
-            <h4>Dialog body text</h4>
-            <div class="box1-btm">
-                <button id="act1"class="act">ACTION1</button>
-                <button id="act2"class="act">ACTION2</button>
-            </div>
-        </div>
-    </section>
+    
 
     <script src="./index.js"></script>
 </body>

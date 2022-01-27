@@ -1,9 +1,21 @@
 #toggle1{
-    width:fit-content;
-    height: fit-content;
-    background-color: tan;
+    width:20rem;
+    height: 30rem;
+    /* align-self: flex-end;
+    background-color: tan; */
     
 }
+.tgl-header,.material-icons.tgl-icn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0.7rem;
+}
+.primary-btn{
+    align-content: center;
+  
+}
+
 /* #btn{
     margin-left: 0 auto;
 } */
@@ -18,16 +30,31 @@ a{
 }
 
 #nav-ul{
+    border:1px solid purple;
+    margin:0 auto;
+    background-color: blueviolet;
     display: flex;
     flex: row wrap;
     gap:1rem;
+    align-items: center;
+    padding:1rem;
+}
+.nav-below{
+    border:1px solid purple;
+    margin:0 auto;
+    height:30rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+
 }
 .material-icons.right-icn{
     width:1.5rem;
     background-color: tomato;
     border-radius: 50%;
     cursor: pointer;
-    margin-left: 0 auto;
+    /* margin-left: 0 auto; */
 }
 .dialog{
     border:1px solid blue;
