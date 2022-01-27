@@ -50,6 +50,10 @@ a{
     
 
 }
+.simple-act ul{
+    border:1px solid pink;
+    margin-left: 0;
+}
 .material-icons.right-icn{
     width:1.5rem;
     background-color: tomato;

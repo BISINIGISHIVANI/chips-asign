@@ -1,0 +1,40 @@
+#cointener{
+    margin:0 auto;
+    width:50rem;
+    height:30rem;
+    border:1px solid pink;
+}
+#nav{
+    width:50rem;
+    height:5rem;
+    border:1px solid rgb(245, 231, 35);
+    display: flex;
+    flex-direction: row;
+    gap:2rem;
+    align-items: flex-end;
+    cursor: pointer;
+    
+}
+.rht,.lft{
+    border-bottom: 2px solid blue;
+}
+.lft{
+    color: brown;
+    margin-left:38rem;
+   
+}
+.fxd1{
+    text-align: center;
+    margin-top:10rem;
+    border: none;
+    display: flex;
+}
+
+
+    
+
+#medium{
+    width: 50rem;
+    height: 25rem;
+    border:1px solid rgb(34, 37, 168);
+}

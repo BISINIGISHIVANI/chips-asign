@@ -19,3 +19,8 @@ var alertAct=()=>{
 }
 
 btnAlert.addEventListener("click",alertAct)
+function simpleScroll(){
+    var elmnt=document.querySelector("#for-scroll");
+    var x=elmnt.scrollLeft;
+}
+elmnt.addEventListener("scroll",simpleScroll);
